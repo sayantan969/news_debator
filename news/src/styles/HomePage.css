@@ -1,0 +1,24 @@
+.home-page {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .home-page__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+  
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+  }
+  
